@@ -7,7 +7,7 @@ import time
 import telebot
 from telebot import types
 
-TOKEN = '<token_string>'
+TOKEN = '1813808809:AAF0jVdDuOpLFyoC-5OgO0PBEm8192_v1_E'
 
 knownUsers = []  # todo: save these in a file,
 userStep = {}  # so they won't reset every time the bot restarts
