@@ -1,1 +1,1 @@
-worker: ./start_normal.sh
+release: ./start_normal.sh
