@@ -1,1 +1,1 @@
-web: Python3 alarm_bot.py
+worker: python main.py
