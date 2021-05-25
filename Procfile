@@ -1,1 +1,1 @@
-worker: start_normal.sh
+worker: ./start_normal.sh
