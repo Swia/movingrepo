@@ -13,7 +13,7 @@ knownUsers = []  # todo: save these in a file,
 userStep = {}  # so they won't reset every time the bot restarts
 
 commands = {  # command description used in the "help" command
-    'rtr'       : 'Get used to the bot',
+    'start'       : 'Get used to the bot',
     'help'        : 'Gives you information about the available commands',
     'sendLongText': 'A test using the \'send_chat_action\' command',
     'getImage'    : 'A test using multi-stage messages, custom keyboard, and media sending'
@@ -54,7 +54,7 @@ bot.set_update_listener(listener)  # register listener
 
 
 # handle the "/start" command
-@bot.message_handler(commands=['rtr'])
+@bot.message_handler(commands=['start'])
 def command_start(m):
     cid = m.chat.id
     if cid not in knownUsers:  # if user hasn't used the "/start" command yet:
