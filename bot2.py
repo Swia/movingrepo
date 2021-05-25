@@ -6,6 +6,8 @@ import time
 
 import telebot
 from telebot import types
+import time
+timing = time.time()
 
 TOKEN = '1813808809:AAF0jVdDuOpLFyoC-5OgO0PBEm8192_v1_E'
 
@@ -128,6 +130,12 @@ def command_text_hi(m):
 def command_default(m):
     # this is the standard reply to a normal message
     bot.send_message(m.chat.id, "I don't understand \"" + m.text + "\"\nMaybe try the help page at /help")
+    
+
+while True:
+    if time.time() - timing > 10.0:
+        timing = time.time()
+        bot.send_message("Semen win")    
 
 
 bot.polling()
