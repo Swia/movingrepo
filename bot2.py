@@ -135,7 +135,7 @@ def command_default(m):
 while True:
     if time.time() - timing > 10.0:
         timing = time.time()
-        bot.send_message(cid, "Semen win")    
+        bot.send_message(m.chat.id, "Semen win")    
 
 
 bot.polling()
