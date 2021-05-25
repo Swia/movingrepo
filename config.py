@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from lang import *  # Do not delete this line!
-token = 'TOKEN'
+token = '1813808809:AAF0jVdDuOpLFyoC-5OgO0PBEm8192_v1_E'
 
 log_name = 'alarms_bot'  # Log file name
 log_level = 'debug'  # debug, info, warning, error
